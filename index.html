@@ -70,8 +70,52 @@
                             </ul>
                         </div>
                         <!-- "Sticky" (non-collapsing) right-side menu item(s) -->
+                        <div class="navbar-header pull-right logInDiv resetLogInDiv">
+                            <ul class="nav pull-left">
+                                <li class="dropdown pull-right log-in-alignment">
+                                    <!-- Log In for mobile and tab -->
+                                    <button id="mobileViewLogin" data-target="#loginNavbar" aria-controls="navbar" class="navbar-toggle
+                                    collapsed visible-xs logInIconAnchor" tabindex="0">
+                                        <i id="logInIconId" class="glyphicon glyphicon-remove"></i>
+                                        <span id="logInLabelId"> Log In </span>
+                                    </button>
+                                    <!-- Log In for desktop -->
+                                    <button data-toggle="dropdown" class="selected loginButton dropdown-toggle hidden-xs" aria-label="login-shows content"
+                                    tabindex="0"> Log In </button>
+                                    <ul class="dropdown-menu">
+                                        <li>
+                                            <i class="fa fa-caret-up fa-3" aria-hidden="true"></i>
+                                            <a href="online-banking.html" data-count="0" id="desktopViewLogin_0" target="_self" aria-label="Online Banking 1 of 5" tabindex="0">
+                                                Online Banking
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="online-banking.html" data-count="1" id="desktopViewLogin_1" target="_self" aria-label="Online Investing 2 of 5" tabindex="0">
+                                                Online Investing
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="business-banking.html" data-count="2" id="desktopViewLogin_2" target="_self" aria-label="Business Banking 3 of 5" tabindex="0">
+                                                Business Banking
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="corporate-and-commercial-banking.html" data-count="3" id="desktopViewLogin_3" target="_self" aria-label="Corporate & Commercial 4 of 5" tabindex="0">
+                                                Corporate & Commercial
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="investment-services.html" data-count="4" id="desktopViewLogin_4" target="_self" aria-label="Investment Services 5 of 5" tabindex="0">
+                                                Investment Services
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </div>
                     </div>
                 </div>
+                <!-- Secondary nav menu -->
                 <div></div>
             </div>
         </header>
