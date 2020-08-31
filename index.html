@@ -18,7 +18,7 @@
                         <!-- The collapsing items navbar-left or navbar-right -->
                         <div class="collapse navbar-collapse navbar-left">
                             <!--image for little white arrow pointer to a dropdown menu-->
-                            <ul class="nav naavbar-nav pull-right">
+                            <ul class="nav navbar-nav pull-right">
                                 <li class="dropdownLink arrowSelect selectedList" id="myList0">
                                     <!-- note for 'target="_self": https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/target -->
                                     <a class href="/index.html" target="_self" title="Personal" id="navList0" tabindex="0">Personal</a>
@@ -198,7 +198,49 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="stories"></div>
+                            <!-- These "stories" are, of course, a grid. But the first column of the grid looks like it's 2 columns 
+                            wide on the left, then 1 column and 1 column. and the 2-column wide piece has 2 boxes on top of each other,
+                            and the 2 boxes are the same height combined as the 2 columns on the right.-->
+                            <div class="stories">
+                                <div class="story-group">
+                                    <div class="story-vertical">
+                                        <div class="story">
+                                            <div class="story-frame">
+                                                <div class="story-matting">
+                                                    <picture class="story-picture">
+                                                        <!-- photo referencing school activity -->
+                                                    </picture>
+                                                </div>
+                                            </div>
+                                            <div class="story-content">
+                                                <h2>
+                                                    <span class="robotoFont">Back to school</span>
+                                                </h2>
+                                                <h3>
+                                                    <span class="helveticaFont-65Medium">For a happier way back to school, boost your financial IQ.</span>
+                                                </h3>
+                                                <a class="story-link" href="/financialiq.html" target="_self" aria-label="Learn how to boost your financial IQ."
+                                                tabindex="0">Learn how</a>
+                                                <svg><!-- This will be a right-pointing chevron (http://www.w3.org/2000/svg) --></svg>
+                                            </div>
+                                        </div>
+                                        <div class="story">
+                                            <div class="story-frame"></div>
+                                            <div class="story-content"></div>
+                                        </div>
+                                    </div>
+                                    <div class="story-horizontal">
+                                        <div class="story">
+                                            <div class="story-frame"></div>
+                                            <div class="story-content"></div>
+                                        </div>
+                                        <div class="story">
+                                            <div class="story-frame"></div>
+                                            <div class="story-content"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                         <div class="iconBoxes aem-GridColumn aem-GridColumn--default--12"></div>
                         <div class="infoComp aem-GridColumn aem-GridColumn--default--12"></div>
